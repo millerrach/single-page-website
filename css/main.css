@@ -1,0 +1,145 @@
+/**********************************
+GENERAL
+***********************************/
+
+a {
+    text-decoration: none;
+    color: #7AA4A7;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    letter-spacing: .05em;
+    background-color: #95A841;
+    color: white;
+    margin: 0;
+}
+
+/**********************************
+HEADING
+***********************************/
+
+.name {
+    font-size: 3em;
+    letter-spacing: .1em;
+    text-align: center;
+    margin-bottom: .25em;
+    font-weight: 900;
+}
+
+.title {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: row;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-justify-content: space-around;
+        -ms-flex-pack: distribute;
+            justify-content: space-around;
+    list-style: none;
+    margin: auto;
+    font-size: 2em;
+    font-weight: 300;
+}
+
+/**********************************
+PHOTO
+***********************************/
+
+.pic img {
+    display: block;
+    margin: 0 auto;
+    border-radius: 100%;
+    width: 15em;
+    padding: 2em;
+}
+
+/**********************************
+SKILLS
+***********************************/
+
+.skills p {
+    text-align: center;
+    font-size: 1.5em;
+    padding: 0 .5em;
+    margin: 0;
+}
+
+/**********************************
+SOCIAL
+***********************************/
+
+.flex-social {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding-top: 2em;
+}
+
+svg {
+    padding: 1em;
+}
+
+.icon {
+    fill: currentColor;
+}
+
+
+/**********************************
+MEDIA QUERIES
+***********************************/
+
+@media (min-width: 500px) {
+    .social-icon {
+        padding: 2em;
+    }
+}
+
+@media (min-width: 700px) {
+    #center {
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-align-items: center;
+            -ms-flex-align: center;
+                align-items: center;
+        height: 100vh;
+        -webkit-justify-content: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+    }
+
+    #main-container {
+        display: block;
+        width: 90%;
+        padding: 0;
+    }
+
+    .flex-social {
+        padding: 0;
+    }
+
+    svg {
+        padding: 3em;
+    }
+
+    #color { transition: 1s; }
+
+    svg:hover #color { fill: #51545D; }
+}
+
+
+
+
+
