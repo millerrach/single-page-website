@@ -1,3 +1,3 @@
 # single-page-website
 
-I wanted to mock up a site that reminds me of a business card. It's easy to refer to and you can get information quickly. 
+A mock up a site similar to a business card, easy to refer to with the ability get information quickly. 
